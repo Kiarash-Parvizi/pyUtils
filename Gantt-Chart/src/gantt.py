@@ -45,7 +45,7 @@ class GanttChart:
 
         #-------------------------------------
         # Setting ticks on y-axis
-        self.gnt.set_yticks([(i+1)*10 for i in range(n)])
+        self.gnt.set_yticks([(i+1)*10+5 for i in range(n)])
         # Labelling tickes of y-axis
         self.gnt.set_yticklabels([Id2Name[i] for i in range(n)])
         #
